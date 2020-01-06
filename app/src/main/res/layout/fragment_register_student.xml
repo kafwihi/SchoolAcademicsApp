@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.register_student">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/regno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dip"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_regno"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_fname"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+
+        <EditText
+            android:id="@+id/mname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_mname"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_lname"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_contact"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        >
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="Form"
+            android:textSize="18sp"
+            android:background="@color/input_register_bg"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+
+        <Spinner
+            android:id="@+id/level"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:popupBackground="#ea4c88"
+            android:background="@color/white"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dp"
+            android:spinnerMode="dropdown"
+
+            android:layout_marginBottom="10dp"
+            android:prompt="@string/hint_level" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            >
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="Stream"
+                android:textSize="18sp"
+                android:background="@color/input_register_bg"
+                android:textColor="@color/input_register"
+                android:textColorHint="@color/input_register_hint"
+                />
+
+            <Spinner
+                android:id="@+id/stream"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:popupBackground="#ea4c88"
+                android:background="@color/white"
+                android:layout_marginTop="5dip"
+                android:paddingLeft="10dp"
+                android:spinnerMode="dropdown"
+                android:layout_marginBottom="10dp"
+                android:prompt="@string/hint_stream" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            >
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="D.O.B"
+                android:textSize="18sp"
+                android:background="@color/input_register_bg"
+                android:textColor="@color/input_register"
+                android:textColorHint="@color/input_register_hint"
+                />
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:popupBackground="#ea4c88"
+                android:background="@color/white"
+                android:layout_marginTop="5dip"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip"
+            android:background="#ea4c88"
+            android:text="@string/btn_register"
+            android:textColor="@color/white"
+            />
+
+          </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Drawer</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout2">Logout2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">home fragment</string>
+    <string name="settings">settings</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="hint_fname">Firstname</string>
+
+    <string name="hint_lname">Lastname</string>
+
+    <string name="hint_contact">Phone</string>
+    <string name="hint_regno">RegNo</string>
+    <string name="hint_mname">Midname</string>
+    <string name="hint_level">Form</string>
+    <string name="hint_stream">Stream</string>
+    <string name="action_settings">settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_students_fragment">Hello students fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_staff_fragment">Hello staff fragment</string>
+
+
+    <string name="menu_logout">Logout</string>
+
+    <string name="menu_home">WELCOME HOME</string>
+    <string name="menu_staff">WELCOME STAFF</string>
+    <string name="menu_exams">WELCOME EXAMS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="register">add student fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="view">view student records</string>
+
+</resources>
